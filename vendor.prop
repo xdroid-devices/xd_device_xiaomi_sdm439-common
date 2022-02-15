@@ -181,20 +181,13 @@ vendor.vidc.enc.disable_bframes=1
 vendor.video.disable.ubwc=1
 
 # memory opts
-ro.vendor.qti.sys.fw.bservice_enable=true
-ro.sys.fw.bservice_limit=6
-ro.sys.fw.bservice_age=6000
-ro.am.reschedule_service=true
-ro.vendor.qti.sys.fw.bg_apps_limit=16
-ro.sys.fw.bg_apps_limit=16
-ro.config.fha_enable=true
-ro.config.dha_cached_max=6
-ro.config.dha_empty_max=16
-ro.config.dha_empty_init=16
+ro.config.dha_cached_min=8
+ro.config.dha_cached_max=16
+ro.config.dha_empty_min=8
+ro.config.dha_empty_max=32
+ro.config.dha_empty_init=32
 ro.config.dha_lmk_scale=0.990
-ro.config.dha_th_rate=2.3
 ro.config.sdha_apps_bg_max=50
-ro.config.sdha_apps_bg_min=2
 
 # Zygote Preforking
 persist.device.config.runtime_native.usap_pool_enabled=true
