@@ -242,6 +242,7 @@ vendor.service.qti.ims.enabled=1
 
 # Sensor
 ro.vendor.sensors.pseudo_gyro=true
+debug.sensors.diag_buffer_log=false
 
 # SoC
 ro.soc.manufacturer=Qualcomm
