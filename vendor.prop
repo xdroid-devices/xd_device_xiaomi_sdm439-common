@@ -259,8 +259,6 @@ debug.hwui.use_buffer_age=false
 
 # zram
 ro.zram.mark_idle_delay_mins=60
-ro.zram.first_wb_delay_mins=1440
-ro.zram.periodic_wb_delay_hours=24
 
 #go_defaults_common.mk
 pm.dexopt.downgrade_after_inactive_days=10
