@@ -2,3 +2,4 @@
 allow system_app sysfs_graphics:dir search;
 allow system_app sysfs_graphics:file { getattr open read write };
 allow system_app fm_radio_device:chr_file {read write open ioctl};
+allow system_app proc_pagetypeinfo:file r_file_perms;
