@@ -1,2 +1,4 @@
 # Dirac
 vendor_internal_prop(dirac_prop);
+
+vendor_restricted_prop(vendor_camera_prop);
