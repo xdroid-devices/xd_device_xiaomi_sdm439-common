@@ -24,3 +24,4 @@ ro.min.fling_velocity             u:object_r:system_prop:s0
 ro.max.fling_velocity             u:object_r:system_prop:s0
 persist.input.velocitytracker.strategy		u:object_r:system_prop:s0
 ro.input.resampling                       u:object_r:system_prop:s0
+vendor.camera.aux.packageblacklist u:object_r:vendor_camera_prop:s0
