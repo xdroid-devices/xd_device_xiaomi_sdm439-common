@@ -1,0 +1,1 @@
+allow mm-qcamerad fwk_sensor_hwservice:hwservice_manager find;
