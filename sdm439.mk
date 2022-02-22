@@ -5,6 +5,7 @@
 #
 
 $(call inherit-product, device/xiaomi/sdm439-common/device-hidl.mk)
+$(call inherit-product, frameworks/native/build/phone-xhdpi-2048-dalvik-heap.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
