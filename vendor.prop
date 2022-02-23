@@ -296,7 +296,6 @@ ro.lmk.use_minfree_levels=false
 # graphics
 debug.hwui.renderer=skiagl
 debug.renderengine.backend=skiaglthreaded
-renderthread.skia.reduceopstasksplitting=false
 debug.cpurend.vsync=false
 debug.sf.disable_client_composition_cache=1
 debug.hwui.use_hint_manager=true
