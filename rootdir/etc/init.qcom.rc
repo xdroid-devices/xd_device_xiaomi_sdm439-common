@@ -391,6 +391,17 @@ on property:sys.boot_completed=1
     rm /data/unencrypted/zram_swap
     swapon_all /vendor/etc/fstab.zram
     
+    #LMK
+    chmod 666 /sys/module/lowmemorykiller/parameters/minfree
+    chown root /sys/module/lowmemorykiller/parameters/minfree
+    write /sys/module/lowmemorykiller/parameters/minfree 18432,23040,27648,32256,55296,80640
+    chmod 666 /sys/module/lowmemorykiller/parameters/cost
+    chown root /sys/module/lowmemorykiller/parameters/cost
+    write /sys/module/lowmemorykiller/parameters/cost 32
+    chmod 666 /sys/module/lowmemorykiller/parameters/vmpressure_file_min
+    chown root /sys/module/lowmemorykiller/parameters/vmpressure_file_min
+    write /sys/module/lowmemorykiller/parameters/vmpressure_file_min 81250
+
     #WDSP FW boot sysfs node used by STHAL
     chown media audio /sys/kernel/wdsp0/boot
     chown media audio /sys/kernel/wcd_cpe0/fw_name
